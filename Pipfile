@@ -7,8 +7,9 @@ verify_ssl = true
 flake8 = "*"
 
 [packages]
-discord-py = {extras = ["voice"], version = "*"}
+discord-py = {extras = ["voice"],version = "*"}
 python-dotenv = "*"
+youtube-dl = "*"
 
 [requires]
 python_version = "3.7"

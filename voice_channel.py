@@ -9,7 +9,7 @@ load_dotenv()
 
 API_KEY = os.environ['API_KEY']  # raise KeyError if not exist
 
-client = commands.Bot(command_prefix='!hey ')
+client = commands.Bot(command_prefix='!chai')
 
 
 @client.event
